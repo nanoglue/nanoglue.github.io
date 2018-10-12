@@ -2218,13 +2218,14 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		border-bottom: none;
 		position: relative;
+font-family: 'Font Awesome 5 Free' !important;
+font-weight: 900;
 	}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-style: normal;
-			font-weight: normal;
 			text-transform: none !important;
 		}
 
