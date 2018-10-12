@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+/*@import url(font-awesome.min.css);*/
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
 
 /*
@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #C22424;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #C22424 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #C22424 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #C22424 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #C22424 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #C22424;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -1957,7 +1957,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #530001;
 			color: #ffffff !important;
 			box-shadow: none;
 		}
@@ -2084,7 +2084,6 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2152,8 +2151,8 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #8cc9f0;
-			box-shadow: 0 0 0 1px #8cc9f0;
+			border-color: #530001;
+			box-shadow: 0 0 0 1px #530001;
 		}
 
 	select {
@@ -2162,7 +2161,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #C22424;
 		}
 
 	input[type="checkbox"] + label,
@@ -2180,13 +2179,13 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #C22424;
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #8cc9f0;
-		box-shadow: 0 0 0 1px #8cc9f0;
+		border-color: #530001;
+		box-shadow: 0 0 0 1px #530001;
 	}
 
 	::-webkit-input-placeholder {
@@ -2224,7 +2223,6 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2270,7 +2268,7 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #e37682;
 		}
 
 		.icon.style2 {
@@ -2278,7 +2276,7 @@ input, select, textarea {
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #C22424;
 		}
 
 		.icon.style4 {
@@ -2286,7 +2284,7 @@ input, select, textarea {
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #530001;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2863,7 +2861,7 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #e37682;
 			}
 
 			.statistics li.style2 {
@@ -2871,7 +2869,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #C22424;
 			}
 
 			.statistics li.style4 {
@@ -2879,7 +2877,7 @@ input, select, textarea {
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #530001;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3100,7 +3098,8 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					height:auto;
+					max-width: 5%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3390,7 +3389,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #530001;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3437,8 +3436,8 @@ input, select, textarea {
 			#main input[type="email"]:focus,
 			#main select:focus,
 			#main textarea:focus {
-				border-color: #8cc9f0;
-				box-shadow: 0 0 0 1px #8cc9f0;
+				border-color: #530001;
+				box-shadow: 0 0 0 1px #530001;
 			}
 
 		#main select {
@@ -3470,8 +3469,8 @@ input, select, textarea {
 
 		#main input[type="checkbox"]:focus + label:before,
 		#main input[type="radio"]:focus + label:before {
-			border-color: #8cc9f0;
-			box-shadow: 0 0 0 1px #8cc9f0;
+			border-color: #530001;
+			box-shadow: 0 0 0 1px #530001;
 		}
 
 		#main ::-webkit-input-placeholder {
@@ -3525,10 +3524,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #e37682, #C22424, #530001);
+			background-image: -webkit-linear-gradient(90deg, #e37682, #C22424, #530001);
+			background-image: -ms-linear-gradient(90deg, #e37682, #C22424, #530001);
+			background-image: linear-gradient(90deg, #e37682, #C22424, #530001);
 		}
 
 		#main table tbody tr {
